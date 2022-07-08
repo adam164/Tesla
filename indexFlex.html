@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+  <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styleFlex.css">
+  <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+  <title> MyTesla</title>
+  <link rel="icon" href="images/TeslaRed.svg" type="image/icon type">
+</head>
+
+<body>
+  <main class="container-fluid">
+    <div class="row">
+
+      <div class="model3" id="model3">
+        <section class="topHead blur">
+          <a href="https://www.tesla.com/impact" id="topHeadA">Read Tesla's 2021 Impact Report</a>
+        </section>
+        <div class="mainFixed">
+          <span class="logo blur">
+            <a href="https://www.tesla.com" target="_blank" id="teslaWeb">
+              <img src="images/logo.svg" alt="tesla logo" id="logo">
+            </a>
+          </span>
+
+          <nav class="menu firstNav blur">
+            <ul class="firstUl">
+              <li><a href="https://www.tesla.com/models" class="hovNav" target="_blank">Model S</a></li>
+              <li><a href="https://www.tesla.com/model3" class="hovNav" target="_blank">Model 3</a></li>
+              <li><a href="https://www.tesla.com/modelx" class="hovNav" target="_blank">Model X</a></li>
+              <li><a href="https://www.tesla.com/modely" class="hovNav" target="_blank">Model Y</a></li>
+              <li><a href="https://www.tesla.com/solarroof" class="hovNav" target="_blank">Solar Roof</a></li>
+              <li><a href="https://www.tesla.com/solarpanels" class="hovNav" target="_blank">Solar Panels</a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="secondNav">
+            <ul class="secondUl blur">
+              <li><a href="https://shop.tesla.com/" class="hovNav" target="_blank">Shop</a></li>
+              <li><a href="https://www.tesla.com/teslaaccount" class="hovNav" target="_blank">Account</a></li>
+              <button class="hovNav menu-btn">Menu</button>
+            </ul>
+          </nav>
+
+          <div class="nav-links closed notBlur">
+            <div id="close">
+              <button class="close-btn hoverBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                </svg>
+              </button>
+            </div>
+            <ul class="link">
+              <li class="link hovNav"><a href="https://www.tesla.com/inventory/new/m3">Existing Inventory</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/inventory/used/m3">Used Inventory</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/tradein">Trade-In</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/drive">Test Drive</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/insurance">Insurance</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/cybertruck">Cybertruck</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/roadster">Roadster</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/semi">Semi</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/charging">Charging</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/powerwall">Powerwall</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/commercial">Commercial Energy</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/utilities">Utilities</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/findus">Find Us</a></li>
+              <li class="link hovNav"><a href="https://www.tesla.com/support">Support</a></li>
+              <li class="link hovNav"><a href="https://ir.tesla.com/">Investor Relations</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+        <div class="contentTxt js-scroll fade-in blur" id="model3" data-sal="fade" data-sal-duration="500"
+          data-sal-easing="ease-in-circ" data-sal-repeat>
+          <span class="contentDes">
+            <h1 class="descr js-scroll fade-in">Model 3</h1>
+            <p class="descr js-scroll fade-in">Order Online for
+              <a class="descr js-scroll fade-in"
+                href="https://www.tesla.com/support/taking-delivery?redirect=no">Touchless
+                Delivery</a>
+            </p>
+          </span>
+          <span class="descrBtn js-scroll fade-in">
+            <button class="descr-btn black-btn" onclick="window.location.href='https://www.tesla.com/model3/design';">
+              <a class="black" href="https://www.tesla.com/model3/design">CUSTOM ORDER</a></button>
+            <button class="descr-btn white-btn"
+              onclick="window.location.href='https://www.tesla.com/inventory/new/m3';">
+              <a class="white" href="https://www.tesla.com/inventory/new/m3">EXISTING INVENTORY</a></button>
+          </span>
+        </div>
+        <button class="downArr">
+          <img src="/images/down.svg" id="down" alt="down">
+        </button>
+      </div>
+
+      <div class="modelY" id="modelY">
+        <span id="modelYnav blur"></span>
+        <div class="contentTxt js-scroll fade-in blur" id="modelY" data-sal="fade" data-sal-duration="500"
+          data-sal-easing="ease-in-circ" data-sal-repeat>
+          <span class="contentDes">
+            <h1 class="descr js-scroll fade-in">Model Y</h1>
+            <p class="descr js-scroll fade-in">Order Online for
+              <a class="descr js-scroll fade-in"
+                href="https://www.tesla.com/support/taking-delivery?redirect=no">Touchless
+                Delivery</a>
+            </p>
+          </span>
+          <span class="descrBtn js-scroll fade-in">
+            <button class="descr-btn black-btn"><a class="black" href="">CUSTOM ORDER</a></button>
+            <button class="descr-btn white-btn"><a class="white" href="">EXISTING INVENTORY</a></button>
+          </span>
+        </div>
+
+      </div>
+      <div class="modelS">
+        <div class="contentTxt js-scroll fade-in blur" id="modelS" data-sal="fade" data-sal-duration="500"
+          data-sal-easing="ease-in-circ" data-sal-repeat>
+          <span class="contentDes">
+            <h1 class="descr js-scroll fade-in">Model S</h1>
+            <p class="descr js-scroll fade-in">Order Online for
+              <a class="descr js-scroll fade-in"
+                href="https://www.tesla.com/support/taking-delivery?redirect=no">Touchless
+                Delivery</a>
+            </p>
+          </span>
+          <span class="descrBtn js-scroll fade-in">
+            <button class="descr-btn black-btn"><a class="black" href="">CUSTOM ORDER</a></button>
+            <button class="descr-btn white-btn"><a class="white" href="">EXISTING INVENTORY</a></button>
+          </span>
+        </div>
+      </div>
+
+      <div class="modelX">
+        <div class="contentTxt js-scroll fade-in blur" id="modelX" data-sal="fade" data-sal-duration="500"
+          data-sal-easing="ease-in-circ" data-sal-repeat>
+          <span class="contentDes">
+            <h1 class="descr js-scroll fade-in">Model X</h1>
+            <p class="descr js-scroll fade-in">Order Online for
+              <a class="descr js-scroll fade-in"
+                href="https://www.tesla.com/support/taking-delivery?redirect=no">Touchless
+                Delivery</a>
+            </p>
+          </span>
+          <span class="descrBtn js-scroll fade-in">
+            <button class="descr-btn black-btn"><a class="black" href="">CUSTOM ORDER</a></button>
+            <button class="descr-btn white-btn"><a class="white" href="">EXISTING INVENTORY</a></button>
+          </span>
+        </div>
+      </div>
+
+      <div class="panels">
+        <div class="contentTxt js-scroll fade-in blur" id="panels" data-sal="fade" data-sal-duration="500"
+          data-sal-easing="ease-in-circ" data-sal-repeat>
+          <span class="contentDes">
+            <h1 class="descr js-scroll fade-in">Solar Panels</h1>
+            <p class="descr js-scroll fade-in">Lowest Cost Solar Panels in America
+            </p>
+          </span>
+          <span class="descrBtn js-scroll fade-in">
+            <button class="descr-btn black-btn"><a class="black" href="https://www.tesla.com/energy/design">ORDER
+                NOW</a></button>
+            <button class="descr-btn white-btn"><a class="white" href="https://www.tesla.com/solarpanels">LEARN
+                MORE</a></button>
+          </span>
+        </div>
+      </div>
+      <div class="roof">
+        <div class="contentTxt js-scroll fade-in blur" id="roof" data-sal="fade" data-sal-duration="500"
+          data-sal-easing="ease-in-circ" data-sal-repeat>
+          <span class="contentDes">
+            <h1 class="descr js-scroll fade-in">Solar Roof</h1>
+            <p class="descr js-scroll fade-in">Produce Clean Energy From Your Roof
+            </p>
+          </span>
+          <span class="descrBtn js-scroll fade-in">
+            <button class="descr-btn black-btn"><a class="black" href="https://www.tesla.com/energy/design">ORDER
+                NOW</a></button>
+            <button class="descr-btn white-btn"><a class="white" href="https://www.tesla.com/solarroof">LEARN
+                MORE</a></button>
+          </span>
+        </div>
+      </div>
+      <div class="acces">
+        <div class="contentTxt js-scroll fade-in blur" id="acces" data-sal="fade" data-sal-duration="500"
+          data-sal-easing="ease-in-circ" data-sal-repeat>
+          <span class="contentDes">
+            <h1 class="descr js-scroll fade-in">Accesories</h1>
+          </span>
+          <span class="descrBtn js-scroll fade-in">
+            <button class="descr-btn black-btn"><a class="black" href="https://shop.tesla.com/?tesref=true">SHOP
+                NOW</a></button>
+          </span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="./node_modules/sal.js/dist/sal.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
